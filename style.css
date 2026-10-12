@@ -1,0 +1,164 @@
+/* Base Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #2b2b2b;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+/* Header & Navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+/* Sections */
+.section {
+    padding: 100px 10%;
+    text-align: center;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: #1a1a1a;
+}
+
+/* Hero Section */
+.hero {
+    padding: 150px 10%;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 54px;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+
+.hero h2 {
+    font-size: 24px;
+    color: #6c757d;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    color: #4a4a4a;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+/* Grid Layouts (Flexbox) */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Cards */
+.card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card {
+    padding: 20px;
+    width: 250px;
+    font-weight: 600;
+    color: #333;
+}
+
+.project-card {
+    padding: 30px;
+    width: 300px;
+    text-align: left;
+    border: 1px solid #eaeaea;
+}
+
+.project-card h3 {
+    margin-top: 0;
+    color: #007BFF;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #555;
+    font-size: 15px;
+    margin: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+    font-size: 14px;
+}
